@@ -14,6 +14,7 @@ end
 
 group :production do
   gem "unicorn", ">= 4.3.1"
+  gem "pg", ">= 0.14.1"
 end
 
 group :development, :test do
