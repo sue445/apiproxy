@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
-gem 'sqlite3'
 gem 'jquery-rails'
 
 # Gems used only for assets and not required
@@ -20,6 +19,7 @@ end
 group :development, :test do
   gem "rspec-rails", ">= 2.11.4"
   gem "factory_girl_rails", ">= 4.1.0"
+  gem 'sqlite3'
 end
 
 group :development do
