@@ -26,6 +26,19 @@ group :development do
   gem "quiet_assets", ">= 1.0.1"
 end
 
+# guard setting
+group :development do
+  gem "guard", ">= 0.6.2"
+
+  gem 'rb-fsevent'
+  gem 'growl'
+
+  gem "guard-bundler", ">= 0.1.3"
+  gem "guard-rails", ">= 0.0.3"
+  gem "guard-rspec", ">= 0.4.3"
+  gem "guard-cucumber", ">= 0.6.1"
+end
+
 group :test do
   gem "quiet_assets", ">= 1.0.1"
   gem "database_cleaner", ">= 0.9.1"
